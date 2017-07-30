@@ -5,5 +5,5 @@ aluno2 = input('Segundo Aluno: ')
 aluno3 = input('Terceiro Aluno: ')
 aluno4 = input('Quarto Aluno: ')
 lista = [aluno1, aluno2, aluno3, aluno4]
-sorteado = random.choice(lista)
-print('O Aluno Escolhido foi: ', sorteado)
+random.shuffle(lista)
+print('O Aluno Escolhido foi: ', lista)
